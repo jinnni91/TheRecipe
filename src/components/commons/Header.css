@@ -1,0 +1,58 @@
+.header {
+    height: 130px;
+    padding: 20px;
+    display: flex;
+}
+
+.header img {
+    position: absolute;
+    left: 41%;
+    width: 300px;
+}
+
+.search {
+    position: absolute;
+    right: 0;
+    margin-right: 60px; /* 수정 */
+    top: 120px;
+    display: flex;    
+}
+
+.search input {
+    height: 30px;
+    margin-top: 12px;
+}
+
+.search button {
+    display: block;
+    position: relative;
+    width: 50px;
+    padding: 0;
+    margin: 10px 10px 10px 0;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 10px;
+    transition: all 0.2s ;
+    border: none; 
+}
+
+
+.btnOrange {
+    background-color: rgb(233, 138, 30);
+    font-family: 'BinggraeMelona-Bold';
+}
+
+.btnOrange.btnPush {
+    box-shadow: 0px 5px 0px 0px rgb(209, 114, 6);
+}
+
+.btnPush:hover {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+  
+.btnOrange.btnPush:hover {
+    box-shadow: 0px 0px 0px 0px rgb(209, 114, 6);
+}

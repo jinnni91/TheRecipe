@@ -1,0 +1,92 @@
+.body { /* 수정 */
+    width : 450px;
+    margin : auto;
+    margin-top: 100px;
+    min-height: 550px;
+    font-family: 'BinggraeMelona-Bold';
+}
+
+.body label { /* 수정*/
+    min-width : 100px;
+    display: inline-block;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.body label:nth-child(3) {
+    padding-left: 50px;
+}
+
+.body p { /* 수정 */
+    margin : 15px 0;
+    display: flex;
+}
+
+.body p:last-child {
+    justify-content: flex-end;
+}
+
+.body input {
+    width : 100%;
+}
+
+.body textarea {
+    width: 100%;
+    min-height: 100px;
+}
+
+.body button {
+    display: block;
+    position: relative;
+    width: 55px;
+    padding: 0;
+    margin: 10px 20px 10px 0;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 10px;
+    transition: all 0.2s ;
+    border: none;
+    font-family: 'BinggraeMelona-Bold';
+}
+
+.btnGreen {
+    background-color: #759C6B;
+}
+
+.btnRed {
+    background-color: #E74646;
+}
+
+.btnGreen.btnPush {
+    box-shadow: 0px 5px 0px 0px #007144;
+}
+  
+.btnRed.btnPush {
+    box-shadow: 0px 5px 0px 0px #7c1313;
+}
+  
+.btnPush:hover {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+  
+.btnGreen.btnPush:hover {
+    box-shadow: 0px 0px 0px 0px #007144;
+}
+  
+.btnRed.btnPush:hover {
+    box-shadow: 0px 0px 0px 0px #7c1313;
+}
+
+#description:focus,
+#level:focus,
+#time:focus,
+#ingredients:focus,
+#menuName:focus,
+#userid:focus,
+#categoryName:focus {
+    background: rgb(238, 157, 8);
+    color:white;
+}
